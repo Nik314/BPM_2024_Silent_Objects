@@ -132,7 +132,7 @@ def get_invisible_object_types(relations, p, q):
 
 
 
-ocel = pm4py.read_ocel("data/github.jsonocel")
+ocel = pm4py.read_ocel("your log path.jsonocel")
 import time
 print(ocel.relations["ocel:oid"].nunique())
 print(ocel.relations["ocel:type"].nunique())
